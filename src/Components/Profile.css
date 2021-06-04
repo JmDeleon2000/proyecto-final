@@ -21,19 +21,20 @@ button.leftSided:hover {
   background-color: black;
 }
 .leftProfileExtended {
-  width: 30%;
+  width: 40%;
   height: 100%;
   background-color: black;
+  word-wrap: break-word;
 }
 button.xButton {
   border-style: none;
   margin-top: 2%;
-  margin-left: 93%;
+  margin-left: 90%;
   background-color: white;
   border-width: 0px;
   width: 5%;
-  font-size: 0.75vw;
-  text-justify: kashida;
+  font-size: 0.6vw;
+  font-weight: 600;
   text-align: center;
 }
 .aboutMeContainer {
@@ -49,4 +50,7 @@ button.xButton {
   width: 80%;
   margin-left: 10%;
   background-color: blueviolet;
+}
+h3 {
+  font-size: 2vw;
 }

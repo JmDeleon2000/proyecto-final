@@ -1,0 +1,54 @@
+.TechFlexCont {
+  background-color: blueviolet;
+  flex-shrink: 1;
+  height: 100%;
+}
+h1.FlexHeader {
+  font-size: 2vw;
+}
+button.onetoOneButton {
+  background-color: blueviolet;
+}
+.marginCont {
+  margin-left: 1vw;
+  color: #ffff;
+}
+.CSSDisp {
+  height: 100%;
+  width: 100%;
+  border-radius: inherit;
+  border-width: 0px;
+  display: flex;
+  flex-direction: column;
+}
+.HorGameCont {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+.HorGame {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+.HorGameElement {
+  flex-grow: 1;
+  height: 100%;
+  background-color: khaki;
+  border-width: 0.5%;
+  border-style: solid;
+}
+.VertGame {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.VertGameCont {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+button.VertGameButton {
+  height: 20%;
+  width: 100%;
+}
