@@ -1,7 +1,14 @@
 import React, { useState } from 'react';
 import './TechFlex.css'
 import CSSDisplay from './CSSDisplay.jsx'
-
+import TechCard from './TechCard.jsx'
+import reactLogo from './react-logo.png'
+import bootstrapLogo from './bootstrap.jpg'
+import CSSlogo from './css.png'
+import Babellogo from './babel.png'
+import Webpacklogo from './webpack.png'
+import ESlintlogo from './eslint.png'
+import Nginxlogo from './nginx.png'
 
 function TechFlex() {
 const [sizing, setSizing] = useState( 
@@ -30,7 +37,7 @@ const [sizing, setSizing] = useState(
     }
     return (
         <div className='TechFlexCont' >
-        <div style={{width:'42vw', height:'100%', backgroundColor:'blue', marginLeft:'2vw', marginTop:'1vh', marginRight: '2vw'}}>
+        <div style={{width:'42vw', height:'100%', backgroundColor:'black', marginLeft:'2vw', marginTop:'1vh', marginRight: '2vw'}}>
         <div className='marginCont'>
         <h1 className='FlexHeader'>Add more elements and change my size!</h1>
         <button onClick = {()=>resize(40, 1, 1)} type='button' className='onetoOneButton'>1:1</button>
@@ -40,6 +47,20 @@ const [sizing, setSizing] = useState(
         <button onClick = {()=>resize(40, 9, 5)} type='button' className='onetoOneButton'>9:5</button>
         </div>
         <div style = {sizing}><CSSDisplay/></div>
+        </div>
+        <div style = {{flexShrink: 1}}>
+        <div className = 'PoweredByHeader'>
+        <h1 className = 'PoweredByText'>POWERED BY:</h1>
+        </div>
+        <div className = 'poweredBy'>
+        <TechCard cover = {reactLogo}/>
+        <TechCard cover = {bootstrapLogo}/>
+        <TechCard cover = {CSSlogo}/>
+        <TechCard cover = {Babellogo}/>
+        <TechCard cover = {Webpacklogo}/>
+        <TechCard cover = {ESlintlogo}/>
+        <TechCard cover = {Nginxlogo}/>
+        </div>
         </div>
         </div>
     );

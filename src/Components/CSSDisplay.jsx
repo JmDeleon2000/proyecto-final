@@ -1,4 +1,4 @@
-import { element } from 'prop-types';
+
 import React, { useState } from 'react';
 import VertGame from './VertGame.jsx'
 
