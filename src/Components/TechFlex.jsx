@@ -32,7 +32,7 @@ const [sizing, setSizing] = useState(
         <div className='TechFlexCont' >
         <div style={{width:'42vw', height:'100%', backgroundColor:'blue', marginLeft:'2vw', marginTop:'1vh', marginRight: '2vw'}}>
         <div className='marginCont'>
-        <h1 className='FlexHeader'>Change my size!</h1>
+        <h1 className='FlexHeader'>Add more elements and change my size!</h1>
         <button onClick = {()=>resize(40, 1, 1)} type='button' className='onetoOneButton'>1:1</button>
         <button onClick = {()=>resize(40, 4, 3)} type='button' className='onetoOneButton'>4:3</button>
         <button onClick = {()=>resize(40, 16, 9)} type='button' className='onetoOneButton'>16:9</button>

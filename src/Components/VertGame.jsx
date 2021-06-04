@@ -15,4 +15,4 @@ function VertGame({horGames, reduce, augment, y}) {
         </div>
     );
 }
-export default VertGame;
+export default VertGame
