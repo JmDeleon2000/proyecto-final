@@ -53,13 +53,13 @@ const [sizing, setSizing] = useState(
         <h1 className = 'PoweredByText'>POWERED BY:</h1>
         </div>
         <div className = 'poweredBy'>
-        <TechCard cover = {reactLogo}/>
-        <TechCard cover = {bootstrapLogo}/>
-        <TechCard cover = {CSSlogo}/>
-        <TechCard cover = {Babellogo}/>
-        <TechCard cover = {Webpacklogo}/>
-        <TechCard cover = {ESlintlogo}/>
-        <TechCard cover = {Nginxlogo}/>
+        <a href = "https://reactjs.org/"><TechCard cover = {reactLogo}/> </a>
+        <a href = "https://getbootstrap.com/"><TechCard cover = {bootstrapLogo}/> </a>
+        <a href = "https://www.w3schools.com/css/"><TechCard cover = {CSSlogo}/> </a>
+        <a href = "https://babeljs.io/"><TechCard cover = {Babellogo}/> </a>
+        <a href = "https://webpack.js.org/"><TechCard cover = {Webpacklogo}/> </a>
+        <a href = "https://eslint.org/"><TechCard cover = {ESlintlogo}/> </a>
+        <a href = "https://www.nginx.com/"><TechCard cover = {Nginxlogo}/> </a>
         </div>
         </div>
         </div>

@@ -5,6 +5,7 @@ import PropTypes from 'prop-types'
 function TechCard({cover}) {
     return (
         <div className='TechCard'>
+        
         <div className = 'TechCardCover' style = {{backgroundImage: `url(${cover})`}}/>
         
         </div>
